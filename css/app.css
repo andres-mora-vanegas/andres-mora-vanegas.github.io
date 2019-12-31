@@ -1,0 +1,33 @@
+.faqs {
+  width: 120px;
+}
+
+.read_more {
+  text-align: center;
+}
+
+.news.arlo_tm_title_holder:before,
+.faqsc.arlo_tm_title_holder:before,
+.contact.arlo_tm_title_holder:before {
+  height: 50px;
+}
+
+/* .toggleable .text {
+  display: none;
+} */
+
+.toggleable .icon,
+.toggleable .title_service {
+  display: table-cell;
+  padding: 0;
+}
+
+.toggleable .title_service h3 {
+  font-size: 20px;
+}
+
+.toggleable .flex-container .flex-inner .icon .svg {
+  width: 30px;
+  height: 30px;
+  
+}
