@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Especificaciones</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    iframe{
+      width:100%;
+      height: 90vh;
+      border:none;
+      margin:10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul class="nav nav-tabs ">
+      <li class="active "><a class="logsm" data-toggle="tab" href="#intel">Intel</a></li>
+      <li ><a class="logsm" data-toggle="tab" href="#amd">Amd</a></li>
+      <li ><a data-toggle="tab" class="logsm"  href="#nvidia">Nvidia</a></li>
+      <li ><a data-toggle="tab" class="logsm" href="#radeon">Ati</a></li>    
+      <li ><a data-toggle="tab" class="logsm"  href="#gIntel">GIntel</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="intel" class="tab-pane fade in active">
+        <iframe src="intel.html" ></iframe>
+      </div>
+      <div id="amd" class="tab-pane fade">
+        <iframe src="amd.html" ></iframe>
+      </div>
+      <div id="nvidia" class="tab-pane fade">
+        <iframe src="nvidia.html" ></iframe>
+      </div>
+      <div id="radeon" class="tab-pane fade">
+        <iframe src="radeon.html" ></iframe>
+      </div>    
+      <div id="gIntel" class="tab-pane fade">
+        <iframe src="gIntel.html" ></iframe>
+      </div>    
+    </div>
+  </div>
+</body>
+</html>

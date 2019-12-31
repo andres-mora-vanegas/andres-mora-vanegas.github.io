@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Accesos</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav"></ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="rowed">
+                <div class="row border-botom bottoms no-margin">
+                    <div class="col-xs-4">
+                        <a href="#menu-toggle" class="btn btn-default viewList" id="menu-toggle">
+                            <span class="glyphicon glyphicon-align-justify"></span>
+                        </a>
+                    </div>
+                    <div class="col-xs-4 pull-center">
+                        <span class="btn btn-default listJson " data-toggle="modal" data-target="#myModal">
+                            <span class="glyphicon glyphicon-list"></span>
+                        </span>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="" target="_blank" class="btn btn-default newTab pull-right" >
+                            <span class="glyphicon glyphicon-share"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row  content-master">
+                    <div id="main" data-role="header">
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title bold pull-center">EDICIÓN DE ACCESOS</h4>
+                            </div>
+                            <div class="modal-body ">
+                                <div class="table-responsive">
+                                    <table data-role="table" class="table table-hover table-condensed" id="myTable">
+                                        <thead>
+                                            <tr>
+                                                <th>Titulo</th>
+                                                <th data-priority="1">Url</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="editor ui-content">
+                                            <tr>
+                                                <td>
+                                                    <input type="text" />
+                                                </td>
+                                                <td>
+                                                    <input type="text" />
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="row" align="center">
+                                    <div class="col-xs-4">
+                                        <a href="#" class="btn btn-danger" data-dismiss="modal">
+                                            <span class="glyphicon glyphicon-remove"></span> Cerrar</a>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <a href="#" class="btn btn-primary new">
+                                            <span class="glyphicon glyphicon-plus"></span> Nuevo</a>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <a href="#" class="btn btn-success save" data-dismiss="modal">
+                                            <span class="glyphicon glyphicon-ok"></span> Guardar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    
+
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script>const actualStamp=+ new Date();</script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- json file -->
+    <script src="https://ingeniero-andres-mora-bkt.s3.amazonaws.com/test/json.json" type="application/json"></script>
+    <!-- functions of system -->
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
